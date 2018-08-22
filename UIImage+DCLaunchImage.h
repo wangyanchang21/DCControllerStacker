@@ -10,14 +10,10 @@
 
 @interface UIImage (DCLaunchImage)
 
-+ (NSString *)getLaunchImageName;
++ (NSString *)DCLaunchImageName;
 
-+ (UIImage *)getLaunchImage;
++ (UIImage *)DCLaunchImage;
 
 
-//对 image 进行缩放
-- (UIImage *)getImageWithOriginalImage:(UIImage *)image scaledToSize:(CGSize)newSize;
-//对 image 进行剪切
-- (UIImage *)getImageByOriginalImage:(UIImage *)image cutFromRect:(CGRect)cutRect;
 
 @end
