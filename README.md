@@ -73,9 +73,6 @@ UIViewController *vc = [DCControllerStacker topViewController];
 ```
 
 
-## 集成方法
-
-
 ## Prerequisites
 
 - Xcode 10
